@@ -11,7 +11,7 @@
       "LabeledStatement",
       "WithStatement"
     ],
-    "linebreak-style": ["error", "windows"],
+    // "linebreak-style": ["error", "windows"],
     "no-console": "off"
   }
 }
