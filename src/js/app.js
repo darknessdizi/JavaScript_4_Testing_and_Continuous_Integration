@@ -6,6 +6,7 @@ console.log('worked');
 console.log(sum([1, 2]));
 
 export function colorHealth(params) {
+  // функция возращает строку в зависимости от количества жизни игрока
   if (params.health > 50) {
     return 'healthy';
   }
@@ -19,6 +20,7 @@ export function colorHealth(params) {
 }
 
 export function sortUsers(listUsers) {
+  // функция сортирует игроков по их параметру жизни
   const result = listUsers.sort((a, b) => ((a.health > b.health) ? -1 : 1));
   return result;
 }
